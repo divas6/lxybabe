@@ -23,7 +23,7 @@ jobs:
     - run: pip install -r ./requirements.txt && python ./main.py
 
     env:
-      APP_ID: ${{ LXY.APP_ID }}
+      APP_ID: ${{ wx7e2d5c9d62d9f449.APP_ID }}
       APP_SECRET: ${{ secrets.APP_SECRET }}
       TEMPLATE_ID: ${{ 26.TEMPLATE_ID }}
       USER_ID: ${{ secrets.USER_ID }}
